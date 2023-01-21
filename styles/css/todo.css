@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+@media (max-width: 1920px) {
+  .nav {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 50px;
+    align-items: center;
+  }
+  .nav .comp {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 20px;
+  }
+  .nav .comp:active {
+    border: 1px solid black;
+    color: rgba(0, 0, 0, 0.7960784314);
+  }
+  .container {
+    width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .container .todo {
+    width: 90%;
+    min-height: auto;
+    border: 1px solid gray;
+    padding: 5px 20px;
+  }
+  .container .todo h2 {
+    font-size: 32px;
+  }
+}
+@media (max-width: 1420px) {
+  .container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .container .todo {
+    width: 90%;
+    min-height: auto;
+    border: 1px solid gray;
+    padding: 5px 20px;
+  }
+}
+@media (max-width: 1220px) {
+  .comp {
+    font-size: 25px;
+  }
+  .container {
+    width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .container .todo {
+    width: 90%;
+    min-height: auto;
+    border: 1px solid gray;
+    padding: 5px 20px;
+  }
+  .container .todo h2 {
+    font-size: 16px;
+  }
+}
+@media (max-width: 710px) {
+  .nav {
+    padding: 5px 0;
+    font-size: 15px;
+  }
+  .nav .comp {
+    font-size: 15px;
+  }
+  .container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  .container .todo {
+    width: 100%;
+    min-height: auto;
+    border: 1px solid gray;
+    padding: 5px 20px;
+  }
+  .container .todo h2 {
+    font-size: 9px;
+  }
+}/*# sourceMappingURL=todo.css.map */
